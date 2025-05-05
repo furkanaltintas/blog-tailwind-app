@@ -1,81 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body class="text-gray-600 font-roboto">
+  </head>
+  <body class="text-gray-600 font-roboto">
     <nav class="bg-slate-300 shadow-sm shadow-slate-500">
-        <div class="container mx-auto px-4 py-3 flex items-center">
-            <a href="#" class="flex items-center font-semibold hover:text-gray-950 transition">Logo</a>
-            <div class="ml-12 flex">
-                <a href="#" class="flex items-center hover:text-gray-950 transition">
-                   <span class="mr-2">
-                    <i class="fa-solid fa-house"></i>
-                   </span> Home
-                </a>
-            </div>
-            <div class="ml-12 flex">
-                <a href="#" class="flex items-center hover:text-gray-950 transition">
-                   <span class="mr-2">
-                    <i class="fa-solid fa-cloud"></i>
-                   </span> About
-                </a>
-            </div>
-            <div class="ml-12 flex">
-                <a href="#" class="flex items-center hover:text-gray-950 transition">
-                   <span class="mr-2">
-                    <i class="fa-solid fa-address-book"></i>
-                   </span> Contact
-                </a>
-            </div>
-            <div class="relative ml-auto">
-                <span class="absolute left-3 text-sm">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </span>
-                <input type="text" placeholder="Search..." class="block w-full rounded-3xl pl-9 pr-2 focus: outline-none bg-gray-200 text-sm text-gray-600 shadow-sm shadow-slate-300" />
-            </div>
-            <div class="ml-5">
-                <a href="#" class="flex items-center font-semibold text-gray-600 hover:text-gray-950 transition">
-                    <span class="mr-2 ml-5">
-                        <i class="fa-solid fa-user"></i>
-                    </span>
-                    Login / Register
-                </a>
-            </div>
+      <div class="container mx-auto px-4 py-3 flex items-center">
+        <a
+          href="#"
+          class="flex items-center font-semibold hover:text-gray-950 transition"
+          >Logo</a
+        >
+        <div class="ml-12 flex">
+          <a href="#" class="flex items-center hover:text-gray-950 transition">
+            <span class="mr-2">
+              <i class="fa-solid fa-house"></i>
+            </span>
+            Home
+          </a>
         </div>
+        <div class="ml-12 flex">
+          <a href="#" class="flex items-center hover:text-gray-950 transition">
+            <span class="mr-2">
+              <i class="fa-solid fa-cloud"></i>
+            </span>
+            About
+          </a>
+        </div>
+        <div class="ml-12 flex">
+          <a href="#" class="flex items-center hover:text-gray-950 transition">
+            <span class="mr-2">
+              <i class="fa-solid fa-address-book"></i>
+            </span>
+            Contact
+          </a>
+        </div>
+        <div class="relative ml-auto">
+          <span class="absolute left-3 text-sm">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input
+            type="text"
+            placeholder="Search..."
+            class="block w-full rounded-3xl pl-9 pr-2 focus: outline-none bg-gray-200 text-sm text-gray-600 shadow-sm shadow-slate-300"
+          />
+        </div>
+        <div class="ml-5">
+          <a
+            href="#"
+            class="flex items-center font-semibold text-gray-600 hover:text-gray-950 transition"
+          >
+            <span class="mr-2 ml-5">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            Login / Register
+          </a>
+        </div>
+      </div>
     </nav>
 
     <div class="py-12 bg-gray-200">
-        <div class="container mx-auto px-4 flex">
-            <div class="w-3/12">
-                <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mr-4">
-                    <h3 class="text-xl font-semibold text-gray-800 font-roboto">Kategoriler</h3>
-
-                    <div class="text-gray-500 space-y-2 mt-4">
-                        <a href="#" class="flex items-center font-semibold uppercase hover:text-gray-950 transition">
-                            <span class="mr-2">
-                                <i class="fa-solid fa-folder"></i>
-                            </span>
-                            <span> Food </span>
-                            <span class="ml-auto"> (10) </span>
-                        </a>
-                    </div>
-                </div>
+      <div class="container mx-auto px-4 flex">
+        <div class="w-3/12">
+          <div class="bg-white shadow-sm shadow-white p-4 mr-4">
+            <h3 class="text-xl font-semibold text-gray-800 font-roboto">
+              Kategoriler
+            </h3>
+            <div class="text-gray-500 space-y-2 mt-4">
+              <a
+                href="#"
+                class="flex items-center font-semibold uppercase hover:text-gray-950 transition"
+              >
+                <span class="mr-2">
+                  <i class="fa-solid fa-folder"></i>
+                </span>
+                <span> Food </span>
+                <span class="ml-auto"> (10) </span>
+              </a>
+              <a
+                href="#"
+                class="flex items-center font-semibold uppercase hover:text-gray-950 transition"
+              >
+                <span class="mr-2">
+                  <i class="fa-solid fa-folder"></i>
+                </span>
+                <span> Technology </span>
+                <span class="ml-auto"> (1) </span>
+              </a>
+              <a
+                href="#"
+                class="flex items-center font-semibold uppercase hover:text-gray-950 transition"
+              >
+                <span class="mr-2">
+                  <i class="fa-solid fa-folder"></i>
+                </span>
+                <span> Fashion </span>
+                <span class="ml-auto"> (6) </span>
+              </a>
+              <a
+                href="#"
+                class="flex items-center font-semibold uppercase hover:text-gray-950 transition"
+              >
+                <span class="mr-2">
+                  <i class="fa-solid fa-folder"></i>
+                </span>
+                <span> Music </span>
+                <span class="ml-auto"> (10) </span>
+              </a>
+              <a
+                href="#"
+                class="flex items-center font-semibold uppercase hover:text-gray-950 transition"
+              >
+                <span class="mr-2">
+                  <i class="fa-solid fa-folder"></i>
+                </span>
+                <span> People </span>
+                <span class="ml-auto"> (4) </span>
+              </a>
             </div>
-            <div class="w-6/12">
-                <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mr-4">
-                    2
+          </div>
+          <div class="bg-white shadow-sm shadow-white p-4 mr-4 mt-4">
+            <h3 class="text-xl font-semibold text-gray-800 font-roboto">
+              Random Post
+            </h3>
+            <div class="mt-4">
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="./img/photo.jpg"
+                    class="h-14 w-20 object-cover group-hover:brightness-50 transition"
+                  />
                 </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm text-justify block font-roboto font-semibold group-hover:text-gray-950 transition"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </h5>
+                  <div class="flex text-gray-400 text-xs items-center mt-1">
+                    <span class="mr-2 text-xs">
+                      <i class="fa-solid fa-clock"></i>
+                    </span>
+                    May 6 2025
+                  </div>
+                </div>
+              </a>
             </div>
-            <div class="w-3/12">3</div>
+            <div class="mt-4">
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="./img/photo.jpg"
+                    class="h-14 w-20 object-cover group-hover:brightness-50 transition"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm text-justify block font-roboto font-semibold group-hover:text-gray-950 transition"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </h5>
+                  <div class="flex text-gray-400 text-xs items-center mt-1">
+                    <span class="mr-2 text-xs">
+                      <i class="fa-solid fa-clock"></i>
+                    </span>
+                    May 6 2025
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mt-4">
+              <a href="#" class="flex group">
+                <div class="flex-shrink-0">
+                  <img
+                    src="./img/photo.jpg"
+                    class="h-14 w-20 object-cover group-hover:brightness-50 transition"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-sm text-justify block font-roboto font-semibold group-hover:text-gray-950 transition"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </h5>
+                  <div class="flex text-gray-400 text-xs items-center mt-1">
+                    <span class="mr-2 text-xs">
+                      <i class="fa-solid fa-clock"></i>
+                    </span>
+                    May 6 2025
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
+        <div class="w-6/12 p-0 mr-4">
+          <div
+            class="flex bg-white shadow-sm shadow-white justify-between items-center px-3 py-3"
+          >
+            <h3 class="text-xl font-semibold text-gray-800 font-roboto">
+              Business
+            </h3>
+            <!-- <h3 class="text-base uppercase font-semibold font-roboto">Business</h3> -->
+            <a
+              href="#"
+              class="text-white py-1 px-3 rounded-xl bg-slate-950 hover:text-stone-300 transition"
+              >See more...</a
+            >
+          </div>
+          <div class="bg-white overflow-hidden shadow-sm mt-3">
+            <a href="#" class="block overflow-hidden">
+              <img
+                src="./img/photo.jpg"
+                class="w-full h-96 object-cover transform hover:scale-110 transition duration-500"
+              />
+            </a>
+
+            <div class="p-4 pb-5">
+              <a href="#">
+                <h3
+                  class="block text-xl font-semibold font-roboto text-gray-600 hover:text-gray-950 transition"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, animi.
+                </h3>
+              </a>
+              <p class="text-gray-400 text-sm mt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, amet accusamus cum laudantium commodi necessitatibus
+                hic non eaque. Quo corrupti excepturi dolorem maiores
+                consequuntur fugit accusamus, eligendi fuga ad quis?
+              </p>
+              <div class="flex mt-3">
+                <div class="flex space-x-4 text-gray-400 text-sm items-center">
+                  <span class="mr-2 text-sm">
+                    <i class="fa-solid fa-user"></i>
+                  </span>
+                  Administrator
+                </div>
+                <div class="flex text-gray-400 text-sm items-center ml-5">
+                  <span class="mr-2 text-sm">
+                    <i class="fa-solid fa-clock"></i>
+                  </span>
+                  May 6 2025
+                </div>
+                <div class="flex text-gray-400 text-sm items-center ml-auto">
+                  <span class="mr-2 text-sm">
+                    <i class="fa-solid fa-share hover:text-gray-950 transition cursor-pointer"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-3/12">3</div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
