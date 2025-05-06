@@ -4,10 +4,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'roboto': ['Roboto+Slab']
-      }
+        roboto: ["Roboto+Slab"],
+      },
+      transitionTimingFunction: {
+        'custom': 'cubic-bezier(0.02, 0.01, 0.47, 1)',
+      },
+      transitionDuration: {
+        250: "250ms",
+      },
     },
   },
   plugins: [],
-}
-
+};

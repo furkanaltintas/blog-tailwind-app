@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;1,8..144,400;1,8..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="text-gray-600 font-poppins">
+    <nav class="bg-slate-300 shadow-sm shadow-slate-300">
+      <div class="container mx-auto px-4 py-3 flex items-center">
+        <a href="blog.html">Logo</a>
+
+        <div class="ml-12 lg:flex space-x-5 hidden">
+          <a
+            href="blog.html"
+            class="flex items-center hover:text-gray-900 transition"
+          >
+            <span class="mr-2"> <i class="fa-solid fa-house"></i> </span>
+            Home
+          </a>
+        </div>
+
+        <div class="ml-12 lg:flex space-x-5 hidden">
+          <a
+            href="blog.html"
+            class="flex items-center hover:text-gray-900 transition"
+          >
+            <span class="mr-2"> <i class="fa-solid fa-cloud"></i> </span>
+            About
+          </a>
+        </div>
+
+        <div class="ml-12 lg:flex space-x-5 hidden">
+          <a
+            href="blog.html"
+            class="flex items-center hover:text-gray-900 transition"
+          >
+            <span class="mr-2"> <i class="fa-solid fa-address-book"></i> </span>
+            Contact
+          </a>
+        </div>
+
+        <div class="relative ml-auto hidden lg:block">
+          <span class="absolute left-3 text-sm text-gray-600">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input
+            type="text"
+            placeholder="Search..."
+            class="block w-full pl-9 pr-2 focus:outline-none bg-gray-200 text-sm text-gray-600 shadow-sm shadow-slate-300"
+          />
+        </div>
+        <div class="ml-5">
+          <a
+            href="blog.html"
+            class="flex items-center font-semibold text-gray-600 hover:text-gray-900 transition"
+          >
+            <span class="mr-2"><i class="fa-solid fa-user"></i></span>
+            Login/Register
+          </a>
+        </div>
+        <div
+          class="text-xl text-gray-700 cursor-pointer ml-4 xl:hidden block hover:text-blue-800 transition"
+          id="open_sidebar"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <div class="py-12 bg-gray-200">
+      <div class="container mx-auto px-4 flex flex-wrap">
+        <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12">
+          <div
+            class="flex bg-white shadow-sm px-3 py-3 mb-4 justify-between items-center"
+          >
+            <h3 class="text-base uppercase font-semibold font-roboto">
+              Business
+            </h3>
+            <a
+              href="#"
+              class="text-white py-1 px-3 bg-slate-950 border border-rose-950 hover:text-stone-400 transition"
+              >See more...</a
+            >
+          </div>
+
+          <div class="bg-white overflow-hidden shadow-sm">
+            <a href="#" class="block overflow-hidden">
+              <img
+                class="w-full h-96 object-cover transform hover:scale-110 transition duration-500"
+                src="img/photo.jpg"
+              />
+            </a>
+
+            <div class="p-4 pb-5">
+              <a href="#">
+                <h2
+                  class="block text-xl font-semibold font-roboto text-gray-600 hover:text-gray-950 transition"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
+                  vel.
+                </h2>
+              </a>
+              <p class="text-gray-400 text-sm mt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                nemo nam dolorem saepe architecto consectetur porro labore
+                voluptate aliquid! Ea, atque dolor? Quo commodi iusto enim.
+                Alias, eveniet quos! Nihil eius provident laboriosam dicta quasi
+                deserunt quibusdam sapiente labore libero minima perferendis
+                nobis aliquid, accusamus repellendus deleniti ipsam aperiam
+                voluptates temporibus possimus! Recusandae qui quae iusto nam
+                eaque dolore ea beatae itaque cupiditate? Distinctio ab veniam
+                ut magni similique iure, exercitationem pariatur harum
+                voluptatem accusantium eveniet praesentium. Odit voluptatibus
+                assumenda in eligendi officiis recusandae dignissimos id atque
+                expedita nesciunt asperiores quae quos nihil, explicabo debitis
+                corrupti. Perferendis impedit maiores itaque inventore aliquid,
+                tenetur quaerat, id repudiandae aperiam quo rem numquam officiis
+                dignissimos sapiente enim. Beatae dolorum facere dolores
+                facilis. Quos harum quam reprehenderit deleniti? Totam assumenda
+                iure tempora ut suscipit amet optio expedita minus a facilis
+                doloremque, molestiae eaque facere maiores ipsum nobis cumque
+                odio? Optio laudantium laboriosam aliquam! Nemo incidunt vero
+                fugit consequuntur quos libero est aliquid, labore soluta iusto
+                ullam, animi illum quasi recusandae aspernatur blanditiis, qui
+                perspiciatis? Nesciunt mollitia incidunt modi iusto, nisi, nobis
+                rerum in vitae repellat corporis laudantium quos molestias
+                necessitatibus praesentium. Nihil quae, est molestiae vitae
+                minus eos odio exercitationem voluptatem alias quidem enim
+                quisquam culpa ad magnam eius eum hic esse consectetur deleniti!
+                Aliquid praesentium, cupiditate quidem repellat laboriosam
+                consequatur nostrum aspernatur laborum soluta incidunt fugit
+                corrupti eligendi reprehenderit! Reprehenderit soluta, sed,
+                temporibus sunt laborum eos ducimus nesciunt fugit nulla itaque
+                dolore mollitia asperiores obcaecati provident laudantium error.
+                Suscipit laboriosam numquam, reiciendis, rerum nihil ipsum, eius
+                placeat quas saepe aliquid unde sit repellendus aut deleniti
+                laudantium ea vitae nobis enim natus neque iste harum? Impedit
+                voluptas sint a, iure ex nisi autem corrupti sunt, modi sequi,
+                ratione quidem! Consequuntur quia consectetur voluptatum
+                explicabo possimus fuga adipisci eligendi nobis, necessitatibus
+                quasi quo quibusdam porro impedit accusantium iste aliquid enim
+                at omnis iure placeat dignissimos, repellendus similique
+                voluptatem! Dicta illo, fuga, velit, vel temporibus deleniti
+                animi explicabo pariatur minima numquam laudantium ratione eius
+                officiis adipisci quasi iste similique quaerat harum. Eaque
+                fugit voluptate magni quo, iure voluptas culpa asperiores
+                explicabo dolor consectetur sint. Repellendus cumque quas nam
+                reiciendis adipisci reprehenderit excepturi? Provident tempora
+                quo ipsum blanditiis odio. Cumque delectus voluptates doloremque
+                corrupti quia repudiandae praesentium laudantium fugit sint,
+                necessitatibus quasi dolores repellendus autem voluptatibus
+                maiores est nam. Architecto ipsum ab aspernatur doloremque,
+                aliquid facere, consequuntur porro possimus nihil voluptas iure
+                aperiam autem, harum asperiores nemo voluptatum exercitationem
+                enim totam quam nesciunt eveniet soluta. Quas mollitia dolorum
+                fugit deserunt dolorem odio ducimus vel ut sequi maiores magnam
+                est eos quidem, quo asperiores debitis similique rem? Maxime
+                harum aliquam molestias architecto vel. Veniam beatae itaque
+                aliquid quibusdam earum aliquam provident maiores architecto eos
+                consectetur aperiam, eveniet aut quis suscipit sed perferendis
+                sequi quam accusantium animi unde? Voluptatibus dolor totam
+                placeat quibusdam repellendus necessitatibus, quis illum.
+                Laudantium accusamus autem sapiente ad veniam beatae magni
+                numquam maiores nihil, omnis deleniti quisquam eum voluptate
+                asperiores, velit ratione recusandae nisi tempore perferendis
+                quo ipsum excepturi eius quidem eveniet. Numquam modi doloribus
+                dolores architecto adipisci. Eos delectus vero ut quidem
+                explicabo alias quasi expedita temporibus odio fugit optio quis
+                quo corrupti, iusto incidunt omnis assumenda debitis nobis
+                itaque! Officia perspiciatis unde dolor soluta nihil, excepturi
+                eveniet mollitia sunt! Rem adipisci architecto vitae ducimus
+                iure consequuntur laborum beatae magni ipsam libero debitis
+                velit facilis, nulla nemo consectetur sequi blanditiis omnis
+                ullam! Odit aliquam ipsum nobis, neque molestias vero voluptates
+                minima harum necessitatibus sapiente accusamus, totam quos
+                labore vitae voluptate iste, aspernatur cupiditate debitis.
+                Facilis vitae rem, ipsam distinctio odio corrupti explicabo
+                architecto. Eaque sequi assumenda corporis officiis quaerat esse
+                voluptatibus, excepturi hic odit vel, explicabo atque iure quasi
+                iste voluptate illum quidem perspiciatis inventore sapiente
+                provident odio beatae? Eum magnam cum perferendis quibusdam
+                optio voluptatum commodi deserunt voluptas ullam cumque? Iste
+                quod omnis repellat enim quae assumenda cumque nisi labore
+                voluptates eaque, distinctio hic. Reiciendis alias, repellat ex
+                expedita culpa illum at laudantium, ea obcaecati autem suscipit
+                in cum facilis voluptatibus voluptatem assumenda non quis animi
+                atque dolorum voluptas vel? Perspiciatis quo, doloribus
+                dignissimos consectetur maiores modi beatae quos doloremque ex
+                quia vero quibusdam earum in? Neque perferendis earum asperiores
+                voluptas id ea dolor, quod debitis libero quos autem, officiis
+                excepturi vero, quibusdam corrupti quas harum! Eos officiis
+                debitis necessitatibus, odit reiciendis sunt delectus voluptatum
+                dignissimos. Voluptates quam adipisci, repellendus recusandae
+                quasi nam cumque iste praesentium. Nisi doloribus, fugiat,
+                itaque similique quaerat vero dolorum odit laborum ipsum, hic et
+                magnam perspiciatis autem. Voluptatibus alias explicabo vitae
+                laboriosam adipisci sint cupiditate magnam blanditiis sit
+                provident! Dolores repudiandae labore voluptatum facilis
+                inventore hic totam vero, facere, saepe commodi nihil dolorum
+                voluptas, natus ipsam molestias quibusdam quisquam voluptate
+                aspernatur dolore rem at. Veniam eum illum quaerat recusandae
+                facilis qui, ducimus quasi soluta accusamus repudiandae ab iusto
+                tenetur! Molestiae at quam ut hic quis, sed sit possimus in
+                placeat dolorum, distinctio incidunt natus fugit soluta, eum
+                nisi nostrum doloribus minima vitae quia a ex temporibus aperiam
+                est! Deserunt, nostrum vero soluta cumque porro iste odit nihil
+                ducimus unde libero beatae officiis eligendi quod sequi,
+                molestias odio sapiente provident. Voluptatem cum laudantium
+                illum corrupti nam asperiores laborum, totam quia repellendus in
+                aliquid quos exercitationem animi quam, aut placeat inventore!
+                Rem, dolorem cumque animi tenetur quod odio, saepe at quidem
+                impedit a doloremque enim eligendi quam et vero fugiat?
+                Obcaecati vero nulla rerum tenetur totam nobis quasi
+                voluptatibus magnam sint cumque provident exercitationem et
+                dicta ipsum odit, perferendis deserunt.
+              </p>
+              <div class="mt-3 flex space-x-4">
+                <div class="flex text-gray-400 text-sm items-center">
+                  <span class="mr-2 text-sm">
+                    <i class="fa-solid fa-user"></i>
+                  </span>
+                  Administrator
+                </div>
+                <div class="flex text-gray-400 text-sm items-center">
+                  <span class="mr-2 text-sm">
+                    <i class="fa-solid fa-clock"></i>
+                  </span>
+                  May 19 2023
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!---------Start Comment-->
+
+          <div class="p-4 bg-white shadow-sm mt-8">
+            <h3 class="text-base uppercase font-roboto mb-1">Post a comment</h3>
+            <p class="text-sm text-gray-500 mb-8">10 Comments</p>
+
+            <div class="space-y-5">
+              <div class="flex items-center border-b last:border-b-0 pb-5 border-gray-300">
+                <div class="w-12 h-12 flex-shrink-0">
+                  <img src="img/avatar.jpg" class="w-full" />
+                </div>
+
+                <div class="flex-grow pl-4">
+                  <h4 class="text-base font-roboto">Berke Altıntaş</h4>
+                  <p class="text-xs text-gray-400">May 06 2025</p>
+                  <p class="text-sm font-600 mt-1">This is beautifull.</p>
+                  <div class="flex mt-2 justify-end">
+                    <button
+                      class="text-gray-500 px-2 py-1 text-xs border m-1 border-gray-300 shadow-sm hover:bg-gray-600 hover:text-cyan-50 transition"
+                    >
+                      Reply
+                    </button>
+
+                    <button
+                      class="text-gray-500 px-2 py-1 text-xs border m-1 border-gray-300 shadow-sm hover:bg-gray-600 hover:text-cyan-50 transition"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex items-center border-b last:border-b-0 pb-5 border-gray-300">
+                <div class="w-12 h-12 flex-shrink-0">
+                  <img src="img/avatar.jpg" class="w-full" />
+                </div>
+
+                <div class="flex-grow pl-4">
+                  <h4 class="text-base font-roboto">Berke Altıntaş</h4>
+                  <p class="text-xs text-gray-400">May 06 2025</p>
+                  <p class="text-sm font-600 mt-1">This is beautifull.</p>
+                  <div class="flex mt-2 justify-end">
+                    <button
+                      class="text-gray-500 px-2 py-1 text-xs border m-1 border-gray-300 shadow-sm hover:bg-gray-600 hover:text-cyan-50 transition"
+                    >
+                      Reply
+                    </button>
+
+                    <button
+                      class="text-gray-500 px-2 py-1 text-xs border m-1 border-gray-300 shadow-sm hover:bg-gray-600 hover:text-cyan-50 transition"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-4 bg-white shadow-sm mt-8">
+            <form action="#">
+                <h3 class="text-base uppercase font-roboto mb-1">Comment</h3>
+                <textarea
+                  class="w-full border border-gray-300 px-1 shadow-sm h-40"
+                ></textarea>
+                <div class="mt-2">
+                  <button
+                    type="submit"
+                    class="text-white bg-slate-950 py-2 px-3 uppercase shadow-sm text-sm border border-blue-950 hover:bg-blue-950"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+          </div>
+
+          <!---------END Comment-->
+        </div>
+        <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 lg:mt-0">
+          <div class="md:ml-4 md:mr-4 lg:ml-4 lg:mr-4 xl:ml-4 xl:mr-4">
+            <div class="bg-white w-full shadow-sm p-4 mb-4">
+                <h3 class="text-xl font-semibold text-gray-700 font-roboto">
+                  Social Media
+                </h3>
+                <div class="flex mt-4">
+                  <a
+                    href="#"
+                    class="w-8 h-8 flex ml-1 mr-1 items-center justify-center border border-gray-600 text-base text-gray-800"
+                  >
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="w-8 h-8 flex ml-1 mr-1 items-center justify-center border border-gray-600 text-base text-gray-800"
+                  >
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="w-8 h-8 flex ml-1 mr-1 items-center justify-center border border-gray-600 text-base text-gray-800"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="w-8 h-8 flex ml-1 mr-1 items-center justify-center border border-gray-600 text-base text-gray-800"
+                  >
+                    <i class="fa-brands fa-pinterest"></i>
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="w-8 h-8 flex ml-1 mr-1 items-center justify-center border border-gray-600 text-base text-gray-800"
+                  >
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="w-8 h-8 flex ml-1 mr-1 items-center justify-center border border-gray-600 text-base text-gray-800"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+    
+              <div class="bg-white shadow-sm w-full p-4 mb-4">
+                <h3 class="text-xl font-semibold text-gray-800 font-roboto">
+                  Categories
+                </h3>
+    
+                <div class="text-gray-500 space-y-2 mt-4">
+                  <a
+                    href=""
+                    class="flex items-center font-semibold uppercase hover:text-gray-900 transition"
+                  >
+                    <span class="mr-2">
+                      <i class="fa-solid fa-folder"></i>
+                    </span>
+                    <span> Food </span>
+                    <span class="ml-auto"> (10) </span>
+                  </a>
+    
+                  <a
+                    href=""
+                    class="flex items-center font-semibold uppercase hover:text-gray-900 transition"
+                  >
+                    <span class="mr-2">
+                      <i class="fa-solid fa-folder"></i>
+                    </span>
+                    <span> Techonology </span>
+                    <span class="ml-auto"> (1) </span>
+                  </a>
+    
+                  <a
+                    href=""
+                    class="flex items-center font-semibold uppercase hover:text-gray-900 transition"
+                  >
+                    <span class="mr-2">
+                      <i class="fa-solid fa-folder"></i>
+                    </span>
+                    <span> Fashion </span>
+                    <span class="ml-auto"> (6) </span>
+                  </a>
+    
+                  <a
+                    href=""
+                    class="flex items-center font-semibold uppercase hover:text-gray-900 transition"
+                  >
+                    <span class="mr-2">
+                      <i class="fa-solid fa-folder"></i>
+                    </span>
+                    <span> Music </span>
+                    <span class="ml-auto"> (10) </span>
+                  </a>
+                  <a
+                    href=""
+                    class="flex items-center font-semibold uppercase hover:text-gray-900 transition"
+                  >
+                    <span class="mr-2">
+                      <i class="fa-solid fa-folder"></i>
+                    </span>
+                    <span> People </span>
+                    <span class="ml-auto"> (4) </span>
+                  </a>
+                </div>
+              </div>
+    
+              <div class="bg-white shadow-sm w-full p-4 mb-4">
+                <h3 class="text-xl font-semibold text-gray-800 font-roboto">
+                  Random Post
+                </h3>
+    
+                <div class="mt-4">
+                  <a href="#" class="flex group mt-4">
+                    <div class="flex-shrink-0">
+                      <img
+                        src="./img/photo.jpg"
+                        class="h-14 w-20 object-cover group-hover:brightness-50"
+                      />
+                    </div>
+                    <div class="flex-grow pl-3">
+                      <h5
+                        class="text-sm block font-roboto font-semibold transition group-hover:text-gray-900"
+                      >
+                        Lorem ipsum dolor sit amet dolor adipisicing.
+                      </h5>
+                      <div class="flex text-gray-400 text-xs items-center mt-1">
+                        <span class="mr-2 text-xs">
+                          <i class="fa-solid fa-clock"></i>
+                        </span>
+                        May 29 2023
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="#" class="flex group mt-4">
+                    <div class="flex-shrink-0">
+                      <img
+                        src="./img/photo.jpg"
+                        class="h-14 w-20 object-cover group-hover:brightness-50"
+                      />
+                    </div>
+                    <div class="flex-grow pl-3">
+                      <h5
+                        class="text-sm block font-roboto font-semibold transition group-hover:text-gray-900"
+                      >
+                        Lorem ipsum dolor sit amet dolor adipisicing.
+                      </h5>
+                      <div class="flex text-gray-400 text-xs items-center mt-1">
+                        <span class="mr-2 text-xs">
+                          <i class="fa-solid fa-clock"></i>
+                        </span>
+                        May 29 2023
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="#" class="flex group mt-4">
+                    <div class="flex-shrink-0">
+                      <img
+                        src="./img/photo.jpg"
+                        class="h-14 w-20 object-cover group-hover:brightness-50"
+                      />
+                    </div>
+                    <div class="flex-grow pl-3">
+                      <h5
+                        class="text-sm block font-roboto font-semibold transition group-hover:text-gray-900"
+                      >
+                        Lorem ipsum dolor sit amet dolor adipisicing.
+                      </h5>
+                      <div class="flex text-gray-400 text-xs items-center mt-1">
+                        <span class="mr-2 text-xs">
+                          <i class="fa-solid fa-clock"></i>
+                        </span>
+                        May 29 2023
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+    
+              <div class="bg-white shadow-sm w-full p-4 mb-4">
+                <h3 class="text-xl font-semibold text-gray-700 font-roboto">
+                  Tags
+                </h3>
+    
+                <div class="flex flex-wrap items-center mt-4">
+                  <a
+                    href="#"
+                    class="py-2 text-sm border m-1 border-gray-300 text-gray-500 px-3 transition hover:bg-gray-600 hover:text-cyan-50"
+                  >
+                    PHP
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="py-2 text-sm border m-1 border-gray-300 text-gray-500 px-3 transition hover:bg-gray-600 hover:text-cyan-50"
+                  >
+                    HTML
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="py-2 text-sm border m-1 border-gray-300 text-gray-500 px-3 transition hover:bg-gray-600 hover:text-cyan-50"
+                  >
+                    JAVA
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="py-2 text-sm border m-1 border-gray-300 text-gray-500 px-3 transition hover:bg-gray-600 hover:text-cyan-50"
+                  >
+                    LARAVEL
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="py-2 text-sm border m-1 border-gray-300 text-gray-500 px-3 transition hover:bg-gray-600 hover:text-cyan-50"
+                  >
+                    ASP.NET
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="py-2 text-sm border m-1 border-gray-300 text-gray-500 px-3 transition hover:bg-gray-600 hover:text-cyan-50"
+                  >
+                    MVC
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="py-2 text-sm border m-1 border-gray-300 text-gray-500 px-3 transition hover:bg-gray-600 hover:text-cyan-50"
+                  >
+                    CYBER SECURITY
+                  </a>
+    
+                  <a
+                    href="#"
+                    class="py-2 text-sm border m-1 border-gray-300 text-gray-500 px-3 transition hover:bg-gray-600 hover:text-cyan-50"
+                  >
+                    COMPUTER ENGINEER
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="fixed w-full h-full bg-black bg-opacity-25 left-0 top-0 opacity-0 invisible transition-all duration-500 xl:hidden"
+      id="sidebar_wrapper"
+    >
+      <div
+        class="fixed top-0 w-72 h-full bg-white shadow-sm flex flex-col transition-all duration-500"
+        id="sidebar"
+      >
+        <div class="lg:hidden">
+          <div class="relative mx-3 mt-1 shadow-sm">
+            <span class="absolute left-3 top-0 text-sm text-gray-600">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+            <input
+              type="text"
+              placeholder="Search..."
+              class="block w-full pl-9 pr-2 focus:outline-none bg-gray-200 text-sm text-gray-600 shadow-sm shadow-slate-300"
+            />
+          </div>
+          <div class="font-roboto">
+            <a
+              href="blog.html"
+              class="flex px-4 py-1 mt-3 items-center text-xl hover:text-gray-900 transition"
+            >
+              <span class="mr-2"> <i class="fa-solid fa-house"></i> </span>
+              Home
+            </a>
+          </div>
+          <div class="font-roboto">
+            <a
+              href="blog.html"
+              class="flex px-4 py-1 mt-3 items-center text-xl hover:text-gray-900 transition"
+            >
+              <span class="mr-2"> <i class="fa-solid fa-cloud"></i> </span>
+              About
+            </a>
+          </div>
+          <div class="font-roboto">
+            <a
+              href="blog.html"
+              class="flex px-4 py-1 mt-3 items-center text-xl hover:text-gray-900 transition"
+            >
+              <span class="mr-2">
+                <i class="fa-solid fa-address-book"></i>
+              </span>
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="border-t py-4">
+      <p class="text-center text-sm">
+        Copyright @ 2025
+        <span class="font-semibold"> Furkan Altıntaş </span> All Rights
+        Reserved.
+      </p>
+    </footer>
+
+    <script src="js/menu.js"></script>
+  </body>
+</html>
